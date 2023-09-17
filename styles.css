@@ -1,73 +1,82 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100em;
-    height: 20em;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 section{
     display:flex;
-    width:30em;
-    height: 30em; 
+    width:150em;
+    height: 40em;
+    margin: 0;
+    padding: 0; 
+    align-items: center;
+    justify-content: center;
     
 }
 
 .navigation{
-    margin-top: 4em;
-    width: 50em;
+    position:relative;
+    width: 30em;
+    height: 4em;
     justify-content: center;
+    align-items: center;
     display: flex;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(240, 240, 240);
     border-radius: 30px;
-    border: 1px solid black;
 }
 
 
-#home, #games, #settings{
-    width: 30px;
-    height: 30px;
-    padding:5px;
-    padding-top: 8px;
-    
+#home, #games, #settings, #call, #message{
+    width: 2em;
+    height: 2em;  
 }
 
-#home-button, #games-button, #settings-button{
-    margin:0;
-    padding:0;
-    width: 55px;
-    height: 55px;
-    border-radius: 100px;
-    background-color: white;
+#home-button, #games-button, #settings-button, #call-button, #message-button{
+    width: 4em;
+    height: 4em;
+    border-radius: 5em;
+    background-color: rgb(240, 240, 240);
     transition:0.3s;
     border: none;
-    justify-content: center;
 }
 
-#home-button:hover, #games-button:hover, #settings-button:hover{
-    background-color: rgb(245, 245, 244);
+#home-button{
+    margin-left: -20px;
+}
+
+#home-button:hover, #games-button:hover, #settings-button:hover, #call-button:hover, #message-button:hover{
+    background-color: rgb(240, 240, 240);
     transition-duration: 0.3s;
 }
 
-#home-button:active, #home-button:focus, #games-button:active, #games-button:focus, #settings-button:active, #settings-button:focus {
-    background-color: rgb(240, 240, 240);
+#home-button:focus, #games-button:focus, #settings-button:focus,  #call-button:focus, #message-button:focus {
     transition: 0.3s;
-    margin-top:-5px;
+    margin-top:-35px;
+    
+}
+
+#blank{
+    position: absolute;
+    bottom: -0.5em;
+    left: -0.5em;
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+    background-color: black;
 }
 
 section nav ul{
     list-style: none;
     display: flex;
-    background-color: rgb(56, 238, 229);
-    width: 20em;
-    height: 6em; 
-    justify-content: center;
-    border-radius: 6em;
 }
 
 section nav ul li{
-    margin-left: 0;
-    margin:20px;
-    justify-content: center;
+    margin:1em;
+    margin-top: 1em;    
 }
+
