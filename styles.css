@@ -1,4 +1,10 @@
+html{
+    width:100vw;
+    height: 100vh; 
+}
+
 .navigation{
+    justify-content: center;
     position: flex;
     display: flex;
 }
@@ -7,9 +13,21 @@
 #home, #games, #settings{
     width: 30px;
     height: 30px;
+    padding:5px;
+    padding-top: 8px;
+    
 }
 
 
 section nav ul{
+    list-style: none;
     display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+section nav ul li{
+    margin:20px;
+    text-decoration: none;
+    border-radius: 30px;
 }
