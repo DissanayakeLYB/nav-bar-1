@@ -46,7 +46,7 @@ section{
 }
 
 #home-button{
-    margin-left: -20px;
+    margin-left: -3em;
 }
 
 #home-button:hover, #games-button:hover, #settings-button:hover, #call-button:hover, #message-button:hover{
@@ -55,20 +55,20 @@ section{
 }
 
 #home-button:focus, #games-button:focus, #settings-button:focus,  #call-button:focus, #message-button:focus {
-    transition: 0.3s;
+    transition: 0.5s;
     margin-top:-35px;
     
 }
 
-#blank{
+/* #blank{
     position: absolute;
     bottom: -0.5em;
-    left: -0.5em;
+    left: 3em;
     width: 3em;
     height: 3em;
     border-radius: 3em;
     background-color: black;
-}
+} */
 
 section nav ul{
     list-style: none;
@@ -76,7 +76,8 @@ section nav ul{
 }
 
 section nav ul li{
-    margin:1em;
+    margin:0.5em;
     margin-top: 1em;    
+    margin-bottom: 1em;    
 }
 
