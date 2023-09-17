@@ -1,0 +1,15 @@
+.navigation{
+    position: flex;
+    display: flex;
+}
+
+
+#home, #games, #settings{
+    width: 30px;
+    height: 30px;
+}
+
+
+section nav ul{
+    display: flex;
+}
